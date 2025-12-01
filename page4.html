@@ -11,7 +11,12 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
-        
+        #Form {
+			background-color: rgba(255,250,200, 0.5);
+			padding: 20px;
+			margin: 0 auto;
+			max-width: 500px;
+		}
 
     </style>
 
@@ -59,9 +64,77 @@
 <p class="fw-bold display-4">Enroll</p>
 <br>
 <blockquote>
-    <span class="lead">Lorem Ipsum</span>
+    <span class="lead">To enroll, Please answer the form below to be sent to the school for reviewing.</span>
 </blockquote>
 </div>
 
+
+<div id="Form">
+		<h2> Enroll Now </h2>
+		<form id="contactForm">
+            <div class="row">
+			<label for="name1">Name:</label>
+			<br>
+			<input type="text" id="name1" name="name1" placeholder="Name here" fdprocessedid="w8wx2m">
+			<br><br>
+			<label for="age1">Age:</label>
+			<br>
+			<input type="number" id="age1" name="age1" placeholder="Age here" fdprocessedid="brie6q">
+			<br><br>
+            </div>
+			<label for="Gender">Gender/Pronouns:</label>
+        <br>
+
+        <input type="radio" id= "" name="" class="form-check-input"> 
+        <label for ="">Male</label>
+        <br>
+
+        <input type="radio" id= "" name=""class="form-check-input">
+        <label for="">Female</label>
+        <br>
+
+        <input type="radio" id= "" name=""class="form-check-input">
+        <label for="">Rather would not say</label>
+        
+
+			<div class="row">
+			<br>
+
+
+			
+            <label for="EpicSections">Grade Level:</label>
+			<div class="form-control">
+			<select id="EpicSections" name="EpicSections" >
+				<option>Choose an option</option>
+				<option value="J">Grade 7</option>
+				<option value="T">Grade 8</option>
+				<option value="R">Grade 9</option>
+				<option value="S">grade 10</option>
+				
+			</select>
+            </div>
+
+			<label for="address">Address:</label>
+			<br>
+			<input type="text" id="address" name="address" placeholder="Enter address here..." class="form-label">
+			<br><br>
+            <label for="address">Email address:</label>
+			<br>
+			<input type="text" id="address" name="address" placeholder="Enter Emailaddress here..." class="btn btn-info">
+            <br><br>
+            <label for="address">Phone number:</label>
+			<br>
+			<input type="text" id="address" name="address" placeholder="Enter Phone here..." >
+            <br><br>
+
+			<input type="Submit" id="Submit" name="Submit" value="Submit Application">
+	        <input type="Reset" id="Reset" name="Reset" value="Clear All">
+            </div>
+            
+
+    
+
+		</form>
+	</div>
 </body>
 </html>
