@@ -11,7 +11,12 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
-        
+        #Form {
+			background-color: rgba(255,250,200, 0.5);
+			padding: 20px;
+			margin: 0 auto;
+			max-width: 500px;
+		}
 
     </style>
 
@@ -59,9 +64,65 @@
 <p class="fw-bold display-4">Contact us</p>
 <br>
 <blockquote>
-    <span class="lead">Lorem Ipsum</span>
+    <span class="lead">Contact us for any inquiries, payments, etc.</span>
 </blockquote>
 </div>
 
+
+<div id="Form">
+		<h2> Contact us </h2>
+		<form id="contactForm">
+            <div class="row">
+			<label for="name1">Name:</label>
+			<br>
+			<input type="text" id="name1" name="name1" placeholder="Name here" fdprocessedid="w8wx2m">
+			<br><br>
+			
+            </div>
+			<label for="Gender">Gender/Pronouns:</label>
+        <br>
+
+        <input type="radio" id= "" name="" class="form-check-input"> 
+        <label for ="">Male</label>
+        <br>
+
+        <input type="radio" id= "" name=""class="form-check-input">
+        <label for="">Female</label>
+        <br>
+
+        <input type="radio" id= "" name=""class="form-check-input">
+        <label for="">Rather would not say</label>
+        
+
+			<div class="row">
+			<br>
+
+
+			
+            
+		
+
+			<label for="address">Address:</label>
+			<br>
+			<input type="text" id="address" name="address" placeholder="Enter address here..." class="form-label">
+			<br><br>
+            <label for="address">Email address:</label>
+			<br>
+			<input type="text" id="address" name="address" placeholder="Enter Emailaddress here..." class="btn btn-info">
+            <br><br>
+            <label for="address">Phone number:</label>
+			<br>
+			<input type="text" id="address" name="address" placeholder="Enter Phone here..." >
+            <br><br>
+
+			<input type="Submit" id="Submit" name="Submit" value="Submit Application">
+	        <input type="Reset" id="Reset" name="Reset" value="Clear All">
+            </div>
+            
+
+    
+
+		</form>
+	</div>
 </body>
 </html>
